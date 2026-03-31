@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 667 666" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(6.71841e-17,-1.0972,1.0972,6.71841e-17,-192.607,732.929)">
+        <circle cx="364.5" cy="479.5" r="303.5" style="fill:url(#_Linear1);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,33.1998)">
+        <g transform="matrix(1,0,0,1,-219,-211)">
+            <text x="513.181px" y="450px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:84px;">AI</text>
+            <g transform="matrix(84,0,0,84,793.174,536.748)">
+            </g>
+            <text x="317.187px" y="536.748px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:84px;">AUTHORED</text>
+        </g>
+        <g transform="matrix(1,0,0,1,65.4459,0)">
+            <g transform="matrix(0.8875,0,0,0.8875,-27.6375,-64.7332)">
+                <g transform="matrix(75.4379,0,0,75.4379,213.666,521)">
+                </g>
+                <text x="159.187px" y="521px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:75.438px;fill:rgb(0,145,140);">A</text>
+                <g transform="matrix(1,0,0,1,-48.291,-74)">
+                    <g transform="matrix(82.4229,0,0,82.4229,245.9,621)">
+                    </g>
+                    <text x="223px" y="621px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:82.423px;fill:rgb(0,145,140);">i</text>
+                </g>
+            </g>
+            <g>
+                <g transform="matrix(1,0,0,1,-59,-161.521)">
+                    <g transform="matrix(20,0,0,20,338,528)">
+                    </g>
+                    <text x="298px" y="528px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:20px;">THE</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-24,-141.559)">
+                    <g transform="matrix(70,0,0,70,452.703,559)">
+                    </g>
+                    <text x="203.704px" y="559px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:70px;">AI Guild</text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(607,0,0,607,61,479.5)"><stop offset="0" style="stop-color:white;stop-opacity:1"/><stop offset="1" style="stop-color:rgb(242,190,89);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

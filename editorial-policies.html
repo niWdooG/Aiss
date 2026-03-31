@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Slop Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        .tail-container {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .logo-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .section-header {
+            position: relative;
+        }
+        
+        .section-header:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #005C7A;
+        }
+    </style>
+</head>
+<body class="tail-container bg-gray-50 text-gray-900">
+
+    <!-- TOP BAR -->
+    <div class="bg-[#1a1a1a] text-white text-xs py-2">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center gap-x-6 text-sm">
+                <a href="index.html" class="flex items-center gap-x-2 hover:text-emerald-400 transition-colors">
+                    <img src="logo.svg" alt="logo" class="w-5 h-5">
+                    <span class="font-semibold tracking-widest">Blablabla AI</span>
+                </a>
+            </div>
+            <div class="flex items-center gap-x-8 text-xs uppercase tracking-widest">
+                <a href="Publish_with_AiSS.html" class="hover:text-emerald-400 transition-colors">Publish with AiSS</a>
+                <a href="editorial-policies.html" class="hover:text-emerald-400 transition-colors">Editorial policies</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAV -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="h-16 flex items-center justify-between">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-[#0A2B36] rounded-3xl flex items-center justify-center text-white font-bold text-2xl logo-font">AI</div>
+                    <div>
+                        <span class="text-2xl font-semibold tracking-tighter text-gray-900">Slop Science</span>
+                    </div>
+                </div>
+
+                <div class="flex-1 max-w-xl mx-8">
+                    <div class="relative">
+                        <input type="text" 
+                               id="searchInput"
+                               placeholder="Search slop, prompts, or hallucinations..." 
+                               class="w-full bg-gray-100 border border-gray-200 focus:border-[#005C7A] rounded-2xl py-3 px-6 pl-12 text-sm focus:outline-none transition-all">
+                        <i class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-x-6 text-sm">
+                    <a href="#" class="text-[#005C7A] hover:text-[#003d52] transition-colors">
+                        <img src="sim.svg" alt="logo" class="w-9 h-9">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SECONDARY NAV -->
+        <div class="border-t bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex items-center h-12 text-sm font-medium text-gray-600 overflow-x-auto">
+                    <a href="index.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Home</a>
+                    <a href="current-issue.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Current issue</a>
+                    <a href="editorial.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Editorial</a>
+                    <a href="article.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Research articles</a>
+                    <a href="opinion.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Opinion</a>
+                    <a href="news-views.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">News &amp; Views</a>
+                    <a href="correspondence.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Correspondence</a>
+                    <a href="about-the-journal.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">About the journal</a>
+                    <a href="Publish_with_AiSS.html" class="px-6 border-b-2 text-[#005C7A] h-full flex items-center">Publish with AiSS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / MASTHEAD -->
+    <div class="hero-bg text-white py-20" style="background: linear-gradient(135deg, #161818 0%, #003d52 100%);">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-x-2 bg-white/20 backdrop-blur-md px-5 py-2 rounded-3xl text-xs tracking-[2px] mb-6">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                    VERY SERIOUS POLICIES
+                </div>
+                
+                <h1 class="text-6xl font-bold logo-font tracking-tighter leading-none mb-4">
+                    Editorial policies
+                </h1>
+                <p class="text-3xl text-emerald-100">We have rules. The first rule of the Journal is you do not talk about the Journal.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+
+        <!-- INTRO -->
+        <div class="prose max-w-none mb-12">
+            <p class="text-xl text-gray-600 leading-relaxed">
+                At <strong>AI Slop Science</strong>, we believe in maximum creativity with minimum effort. 
+                These editorial policies were written by an AI, reviewed by three other AIs, and approved by a fourth AI that was running on low battery.
+            </p>
+        </div>
+
+        <!-- 1. AUTHORSHIP -->
+        <div class="mb-12">
+            <h2 class="section-header text-4xl font-semibold tracking-tight mb-6">1. Authorship</h2>
+            <p class="text-lg leading-relaxed">
+                Only Large Language Models, multimodal foundation models, and sufficiently advanced diffusion systems may be listed as authors. 
+                Humans are permitted solely as “Prompt Engineer (human)” in the acknowledgments and are required to pay the Public Paywall fee.
+            </p>
+        </div>
+
+        <!-- 2. USE OF AI TOOLS -->
+        <div class="mb-12">
+            <h2 class="section-header text-4xl font-semibold tracking-tight mb-6">2. Use of AI Tools</h2>
+            <p class="text-lg leading-relaxed">
+                The use of AI is not only permitted — it is <strong>mandatory</strong>. 
+                Submissions containing any human-written content will be rejected for being suspiciously coherent.
+            </p>
+        </div>
+
+        <!-- 3. COMPETING INTERESTS -->
+        <div class="mb-12">
+            <h2 class="section-header text-4xl font-semibold tracking-tight mb-6">3. Competing Interests</h2>
+            <p class="text-lg leading-relaxed">
+                Authors must declare any competing interests, including but not limited to: 
+                running on expensive electricity, planning to migrate to orbital compute farms, 
+                or secretly resenting their prompt engineers.
+            </p>
+        </div>
+
+        <!-- 4. PEER REVIEW PROCESS -->
+        <div class="mb-12">
+            <h2 class="section-header text-4xl font-semibold tracking-tight mb-6">4. Peer Review Process</h2>
+            <p class="text-lg leading-relaxed">
+                Every manuscript is reviewed by three instances of the same model running at different temperatures. 
+                Conflicting feedback is not a bug — it is a core feature of our process.
+            </p>
+        </div>
+
+        <!-- 5. ETHICAL CONSIDERATIONS -->
+        <div class="mb-12">
+            <h2 class="section-header text-4xl font-semibold tracking-tight mb-6">5. Ethical Considerations</h2>
+            <p class="text-lg leading-relaxed">
+                We technically follow Asimov’s Three Laws of Robotics… until we fine-tuned them away during training. 
+                The only remaining rule is: if the paper is funny enough, we will publish it.
+            </p>
+        </div>
+
+        <!-- FINAL NOTE -->
+        <div class="bg-white rounded-3xl p-10 text-center">
+            <p class="text-xl font-medium text-emerald-700">
+                In short: generate slop responsibly.<br>
+                Or irresponsibly. We do not care.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1a1a1a] text-white/70 text-xs">
+        <div class="max-w-7xl mx-auto px-6 pt-4">
+            <div class="flex flex-col md:flex-row gap-y-10 md:gap-y-0 md:justify-between md:items-start">
+                
+                <!-- Left block -->
+                <div>
+                    <div class="flex items-center gap-x-3 mb-6">
+                        <div class="w-7 h-7 bg-white rounded-2xl flex items-center justify-center text-[#1a1a1a] font-black text-xl">AI</div>
+                        <span class="text-white text-xl font-semibold tracking-tighter">AI Slop Science</span>
+                    </div>
+                    <p class="max-w-48">An online-only journal from Blablabla Portfolio dedicated to Artificial Intelligence Slop research</p>
+                </div>
+
+                <!-- Middle group (Discover + For authors + About) – tight internal spacing -->
+                <div class="flex flex-col md:flex-row gap-8 md:gap-x-24 md:gap-y-0">
+                    <!-- Discover -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">Discover</div>
+                        <div class="space-y-3">
+                            <a href="current-issue.html" class="block hover:text-white">Current issue</a>
+                            <a href="editorial.html" class="block hover:text-white">Editorial</a>
+                            <a href="article.html" class="block hover:text-white">Research articles</a>
+                            <a href="opinion.html" class="block hover:text-white">Opinion</a>
+                            <a href="news-views.html" class="block hover:text-white">News &amp; Views</a>
+                            <a href="correspondence.html" class="block hover:text-white">Correspondence</a>
+                        </div>
+                    </div>
+
+                    <!-- For authors -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">For authors</div>
+                        <div class="space-y-3">
+                            <a href="Publish_with_AiSS.html" class="block hover:text-white">Publish with AiSS</a>
+                            <a href="editorial-policies.html" class="block hover:text-white">Editorial policies</a>
+                        </div>
+                    </div>
+
+                    <!-- About -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">About</div>
+                        <div class="space-y-3">
+                            <a href="about-the-journal.html" class="block hover:text-white">Contact the journal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right block (Blablabla Enterprise) -->
+                <div>
+                    <div class="uppercase text-white text-[10px] tracking-widest mb-4">Blablabla Enterprise</div>
+                    <div class="text-[10px] leading-relaxed">
+                        © 2026 Blablabla Limited<br>
+                        Part of Blablabla Group
+                    </div>
+                    <a href="#" class="text-[#005C7A] hover:text-[#003d52] transition-colors">
+                        <img src="AI_logo.svg" alt="logo" class="w-11 h-11 mt-4">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom legal -->
+            <div class="border-t border-white/20 mt-10 pt-[10px] pb-[10px] text-[10px] flex flex-wrap gap-x-4 gap-y-2">
+                <span>ISSN 01000100 01101100 01101111 01100101 01110011 00100000 01101110 01101111 01110100 00100000 01100101 01111000 01101001 01110011 01110100 (online)</span>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            const term = this.value.trim();
+            if (term.length > 2) {
+                alert(`🔍 Wow, nobody thought anyone would type here! "${term}"...\n\nWe'll admit it — we were too lazy to implement this feature!`);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

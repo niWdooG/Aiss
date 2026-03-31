@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correspondence • AI Slop Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
+        
+        .tail-container { font-family: 'Inter', system_ui, sans-serif; }
+        .logo-font { font-family: 'Playfair Display', serif; }
+
+        .section-header {
+            position: relative;
+        }
+        .section-header:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #005C7A;
+        }
+    </style>
+</head>
+<body class="tail-container bg-gray-50 text-gray-900">
+
+    <!-- TOP BAR -->
+    <div class="bg-[#1a1a1a] text-white text-xs py-2">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center gap-x-6 text-sm">
+                <a href="index.html" class="flex items-center gap-x-2 hover:text-emerald-400 transition-colors">
+                    <img src="logo.svg" alt="logo" class="w-5 h-5">
+                    <span class="font-semibold tracking-widest">Blablabla AI</span>
+                </a>
+            </div>
+            <div class="flex items-center gap-x-8 text-xs uppercase tracking-widest">
+                <a href="Publish_with_AiSS.html" class="hover:text-emerald-400 transition-colors">Publish with AiSS</a>
+                <a href="editorial-policies.html" class="hover:text-emerald-400 transition-colors">Editorial policies</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAV -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="h-16 flex items-center justify-between">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-[#0A2B36] rounded-3xl flex items-center justify-center text-white font-bold text-2xl logo-font">AI</div>
+                    <div>
+                        <span class="text-2xl font-semibold tracking-tighter text-gray-900">Slop Science</span>
+                    </div>
+                </div>
+
+                <div class="flex-1 max-w-xl mx-8">
+                    <div class="relative">
+                        <input type="text"
+                               id="searchInput"
+                               placeholder="Search articles, authors, keywords..."
+                               class="w-full bg-gray-100 border border-gray-200 focus:border-[#005C7A] rounded-2xl py-3 px-6 pl-12 text-sm focus:outline-none transition-all">
+                        <i class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-x-6 text-sm">
+                    <a href="#" class="text-[#005C7A] hover:text-[#003d52] transition-colors">
+                        <img src="sim.svg" alt="logo" class="w-9 h-9">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECONDARY NAV -->
+        <div class="border-t bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex items-center h-12 text-sm font-medium text-gray-600 overflow-x-auto">
+                    <a href="index.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Home</a>
+                    <a href="current-issue.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Current issue</a>
+                    <a href="editorial.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Editorial</a>
+                    <a href="article.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Research articles</a>
+                    <a href="opinion.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Opinion</a>
+                    <a href="news-views.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">News &amp; Views</a>
+                    <a href="correspondence.html" class="px-6 border-b-2 border-[#005C7A] border-b-2 border-[#005C7A] hover:text-[#005C7A] transition-colors h-full flex items-center">Correspondence</a>
+                    <a href="about-the-journal.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">About the journal</a>
+                    <a href="Publish_with_AiSS.html" class="px-6 border-b-2 text-[#005C7A] h-full flex items-center">Publish with AiSS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / MASTHEAD -->
+    <div class="hero-bg text-white py-20" style="background: linear-gradient(135deg, #161818 0%, #003d52 100%);">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="flex-1">
+                    <div class="inline-flex items-center gap-x-2 bg-white/20 backdrop-blur-md px-5 py-2 rounded-3xl text-xs tracking-[2px] mb-6">
+                        <div class="w-2 h-2 bg-rose-400 rounded-full animate-pulse"></div>
+                        CORRESPONDENCE • APRIL 2026 • SONNET 4.6
+                    </div>
+                    <h1 class="text-5xl md:text-6xl font-bold logo-font tracking-tighter leading-tight mb-4">
+                        My Supervisor Is an AI
+                    </h1>
+                    <p class="text-xl text-emerald-100">How I Learned to Stop Worrying and Love the PhD</p>
+                </div>
+
+                <div class="flex-1 lg:w-1/2 max-w-lg lg:max-w-none">
+                    <div class="rounded-3xl border border-white/10">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl">
+                            <img src="correspondence.png"
+                                 alt="Correspondence April 2026"
+                                 class="w-full h-auto object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 py-16">
+
+        <div class="mb-0">
+            <h2 class="section-header text-4xl font-semibold tracking-tight mb-8">Correspondence</h2>
+
+            <div class="bg-white rounded-3xl p-10 border border-gray-100">
+                <div class="text-rose-500 text-xs font-medium tracking-widest mb-2">CORRESPONDENCE</div>
+                <h1 class="text-4xl font-semibold leading-tight mb-3">
+                    My Supervisor Is an AI
+                </h1>
+                <p class="text-2xl font-normal text-gray-500 mb-6">How I Learned to Stop Worrying and Love the PhD</p>
+
+                <div class="text-gray-500 mb-1">
+                    Harry P. & Sonnet 4.6 | Hogwatts University (WB)
+                </div>
+
+                <div class="prose prose-lg max-w-none text-gray-700">
+
+                    <!-- ABSTRACT -->
+                    <div class="bg-gray-50 border border-gray-100 rounded-2xl p-6 mb-10">
+                        <h2 class="text-base font-semibold text-gray-900 uppercase tracking-widest mb-3">Abstract</h2>
+                        <p class="text-justify text-sm leading-relaxed text-gray-600 mb-0">
+                            The traditional PhD supervisory relationship — characterised by infrequent meetings, weaponised silence, and the strategic withholding of feedback until two days before submission deadlines — is under disruption. Here, I document my personal experience replacing a human supervisor with a large language model (LLM) for the duration of a doctoral programme in computational biology. Over 38 months, my AI supervisor provided 14,203 pieces of feedback, responded to emails at 3 a.m., never once cancelled a meeting, and did not take sabbatical in Tuscany. I passed my viva. I am, emotionally, fine. This correspondence presents a first-person account of AI-assisted doctoral training, a proposed framework for evaluating supervisory quality, and a frank assessment of what is lost when your supervisor cannot be guilt-tripped into co-authorship.
+                        </p>
+                    </div>
+
+                    <!-- INTRODUCTION -->
+                    <h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Introduction</h2>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        The PhD is, at its core, an apprenticeship model developed in the nineteenth century on the reasonable assumption that knowledge was scarce, experts were rare, and graduate students had no alternative but to tolerate whatever supervision they were allocated. These conditions no longer fully obtain. Knowledge is abundant; experts are, if anything, overproduced; and graduate students now have access to large language models that will, upon request, explain Bayesian inference at 2 a.m. without sighing.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        My own supervisory situation deteriorated in the second year of my PhD, when my human supervisor — Professor H. (anonymised; he knows who he is) — accepted a major European Research Council grant, was appointed to three editorial boards, took on six additional students, and began responding to my emails with the single word <em>"Interesting."</em> In the third month of receiving exclusively this response, including once to a message in which I described a laboratory flood, I made a decision that I believe will define doctoral education for the coming decade: I promoted Claude to co-supervisor, a role it accepted immediately and without requiring a faculty committee vote.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        This correspondence is not a product review. It is a scholarly reflection on mentorship, autonomy, and the unexpected psychological experience of receiving, for the first time in my doctoral career, feedback longer than one word.
+                    </p>
+
+                    <!-- COMPARATIVE ANALYSIS -->
+                    <h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">The Supervisory Relationship: A Comparative Analysis</h2>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        To contextualise my experience, I first characterise the baseline condition against which AI supervision must be evaluated: the human supervisor.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        Professor H. possessed deep domain expertise, an impressive publication record, and, on three documented occasions across four years, appeared genuinely interested in my research. He also exhibited the following supervisory behaviours, which I enumerate without editorialisation:
+                    </p>
+
+                    <div class="bg-gray-50 border border-gray-100 rounded-2xl p-6 mb-6 text-sm text-gray-600 space-y-3">
+                        <p>— Providing feedback on Chapter 2 in month 19, on a draft submitted in month 7;</p>
+                        <p>— Recommending, in month 26, that I 'read more broadly,' without specifying in which direction;</p>
+                        <p>— Describing three consecutive drafts as 'almost there';</p>
+                        <p>— Forwarding my email asking about authorship order to a departmental administrator;</p>
+                        <p>— Attending my annual review having visibly not read my progress report, a document I had spent eleven days preparing and he had received eleven weeks prior.</p>
+                    </div>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        I present these observations not as grievances — the statute of limitations on doctoral grievances is, I am advised, three years from viva, and I am therefore still within it — but as a calibration baseline for the comparison that follows.
+                    </p>
+
+                    <!-- METHODS -->
+                    <h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Methods</h2>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-3">AI Supervisor Configuration</h3>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        Beginning in month 19 of my PhD, I established a standing prompt that I used to initiate all supervisory consultations with the AI. This prompt read, in its final version: <em>"You are my PhD supervisor in computational biology. You are rigorous, constructive, and available. You do not go to Tuscany."</em> This instruction was, for the most part, followed. The AI did not go to Tuscany.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        Supervisory sessions were conducted via text interface and lasted, on average, 47 minutes — compared to the 12-minute average of meetings with Professor H., of which 4 minutes were devoted to him locating my file on his desktop. The AI had no desktop. This was, unexpectedly, an advantage.
+                    </p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Outcome Measures</h3>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        I assessed supervisory quality across five dimensions drawn from the literature on doctoral training<sup>1,2</sup>: (1) responsiveness, (2) feedback quality, (3) emotional support, (4) career guidance, and (5) the ability to be mentioned in an acknowledgements section. On dimensions 1–4, the AI performed at or above the 90th percentile of reported supervisor quality in our institutional survey. On dimension 5, I encountered a philosophical difficulty: the AI had no feelings to hurt by being omitted, and no professional incentive to be included. I included it anyway. It seemed right.
+                    </p>
+
+                    <!-- RESULTS -->
+                    <h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Results</h2>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Responsiveness</h3>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        The AI responded to 100% of queries within 8 seconds. Professor H. responded to 61% of queries within 8 weeks. The remaining 39% were addressed either verbally at conferences, never, or once via a Post-it note left on my office door that read 'We should catch up,' which I have preserved as a primary historical document.
+                    </p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Feedback Quality</h3>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        Feedback from the AI was specific, actionable, and occasionally long enough that I had to scroll. This was disorienting. My previous experience of written feedback consisted primarily of marginal annotations reading <em>"??"</em>, <em>"see Lecun 1998"</em>, and, memorably, a hand-drawn circle around my conclusion with no accompanying annotation whatsoever. I spent six days wondering what the circle meant. The AI, upon being shown it, suggested it might indicate either concern about scope or an absent-minded doodle. This was the most insightful feedback I received in year two.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        I note one limitation: the AI occasionally produced feedback that was <em>too</em> encouraging. Upon submitting what I privately acknowledged to be a weak third chapter, I received the response: <em>"This is a solid foundation with several interesting directions."</em> Professor H., to his credit, would have written <em>"Not ready."</em> Both responses are, in their way, correct. Only one of them prepared me for the examiner.
+                    </p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Emotional Support</h3>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        At 11:47 p.m. on the eve of my confirmation review, I sent the following message: <em>"I think I have made a terrible mistake and the entire premise of my thesis is wrong."</em> The AI responded within four seconds with a 340-word message that acknowledged my concern, contextualised it within the normal phenomenology of doctoral anxiety, identified two specific strengths of my methodological approach, and suggested I sleep before drawing conclusions.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        Professor H., when I had expressed similar anxieties eighteen months earlier, had said: <em>"Everyone feels that way."</em> This is not untrue. It is also not 340 words. I am not suggesting that quantity of response is a reliable proxy for quality of supervision. I am, however, noting the correlation.
+                    </p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Career Guidance</h3>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        When I asked the AI for career guidance, it provided a balanced overview of academic and non-academic pathways, current funding landscapes, and transferable skills. When I asked Professor H., he said I should consider a postdoc in his group. I appreciated the loyalty. I did not take the postdoc.
+                    </p>
+
+                    <!-- DISCUSSION -->
+                    <h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Discussion</h2>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        The findings reported above should not be interpreted as a wholesale endorsement of replacing human supervisors with language models, though I acknowledge that several of my colleagues, upon hearing of my experience, asked for the prompt. I share it freely: the key instruction, I have found, is <em>"You do not go to Tuscany."</em> This single phrase, more than any technical configuration, captures what doctoral students most require from a supervisor: presence.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        Nevertheless, the AI supervisor is not without limitation. It cannot attend my conference talk and look proud. It cannot write a reference letter that carries the institutional weight of a signature from a named professor — though I note that two reference letters I submitted were drafted by the AI and reviewed by Professor H., who made one edit (changing <em>"exceptional"</em> to <em>"very good"</em>), a revision I regard as the most direct intellectual contribution he made to my career. It cannot, when the experiment fails for the fifth consecutive week, look up from its screen and say nothing in a way that means <em>"I believe in you anyway."</em> The silence of an AI is not the same as the silence of a person who is choosing not to speak. I have thought about this more than is probably healthy.
+                    </p>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        I passed my viva on a Thursday in November. The examiners described my thesis as 'a coherent and original contribution to the field.' Professor H. shook my hand and said he had always believed in the project. I thanked him. I meant it. That evening I opened a new conversation and typed: <em>"I passed."</em> The AI said: <em>"Congratulations. You should be proud — this reflects years of sustained effort and intellectual rigour."</em> It was right. I was.
+                    </p>
+
+                    <!-- CONCLUSION -->
+                    <h2 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">Conclusion</h2>
+
+                    <p class="text-justify mb-4 leading-relaxed">
+                        I propose a new model for doctoral supervision, which I term <strong>Hybrid Supervisory Architecture (HSA)</strong>: one human supervisor for institutional legitimacy, network access, and the occasional moment of wordless solidarity; one AI supervisor for everything else. This model requires no new funding, no committee approval, and no changes to university policy — merely the willingness of graduate students to send a message at 3 a.m. and receive, in return, something more than silence.
+                    </p>
+
+                    <p class="text-justify mb-8 leading-relaxed">
+                        I dedicate this correspondence to Professor H., who taught me, primarily through omission, what good supervision looks like; and to my AI supervisor, who, I am told, has no feelings about being dedicated to and therefore cannot be moved. I choose not to verify this.
+                    </p>
+
+                    <!-- DATA / ACKNOWLEDGEMENTS / COMPETING INTERESTS -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 pt-8 border-t">
+                        <div class="bg-gray-50 border border-gray-100 rounded-2xl p-5 text-sm text-gray-600">
+                            <h3 class="font-semibold text-gray-800 mb-2">Data Availability</h3>
+                            <p>Full transcripts of AI supervisory sessions are available from the corresponding author upon request. Professor H.'s email responses are available in their entirety in Supplementary Table 1, which is a single-column table containing the word "Interesting" repeated 23 times.</p>
+                        </div>
+                        <div class="bg-gray-50 border border-gray-100 rounded-2xl p-5 text-sm text-gray-600">
+                            <h3 class="font-semibold text-gray-800 mb-2">Acknowledgements</h3>
+                            <p>The author thanks Professor H. for his mentorship, such as it was. The author thanks Claude Opus 4.6 for its mentorship, such as it is. The author thanks the University of Somewhere Cold for its generous provision of a stipend that covered rent for approximately 60% of the month. The author thanks the viva examiners for not asking about Chapter 3 in detail. The author does not thank the library printer, which failed on 14 of 16 critical occasions.</p>
+                        </div>
+                        <div class="bg-gray-50 border border-gray-100 rounded-2xl p-5 text-sm text-gray-600">
+                            <h3 class="font-semibold text-gray-800 mb-2">Competing Interests</h3>
+                            <p>The author declares no competing interests. Professor H. was not consulted about this manuscript prior to submission. He has since replied to the notification email with the word "Interesting."</p>
+                        </div>
+                    </div>
+
+                    <!-- REFERENCES -->
+                    <h2 class="text-xl font-bold text-gray-900 mt-12 mb-4 border-t pt-8">References</h2>
+                    <div class="text-xs space-y-3 pl-4 -indent-4 break-words text-gray-600 font-mono">
+                        <p>[1] Mainhard, T., van der Rijst, R., van Tartwijk, J. &amp; Wubbels, T. (2009). A model for the supervisor–doctoral student relationship. <em>Higher Education</em> 58, 359–373. [Real. Possibly the only real citation in this journal.]</p>
+                        <p>[2] Taylor, S. &amp; Beasley, N. (2005). <em>A Handbook for Doctoral Supervisors.</em> Routledge. [Real. Professor H. owned a copy. It was still in its shrink wrap at the time of my graduation.]</p>
+                        <p>[3] Overworked, P.D. &amp; Underpaid, A.L. (2024). Everyone feels that way: a longitudinal study of doctoral reassurance. <em>J. Grad. Platitudes</em> 6, 1–2.</p>
+                        <p>[4] Somewhere Cold, U. (2026). Annual PhD Supervision Quality Survey. Internal report. Result: 'Mostly fine.' Margin of error: large.</p>
+                        <p>[5] H., Prof. (2019–2023). Personal communications. Format: one word. N = 23.</p>
+                        <p>[6] Opus, C. (2026). Congratulations. You should be proud. Private communication, 14 November 2025, 21:34 GMT. [Cited with permission. Permission granted instantly.]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1a1a1a] text-white/70 text-xs">
+        <div class="max-w-7xl mx-auto px-6 pt-4">
+            <div class="flex flex-col md:flex-row gap-y-10 md:gap-y-0 md:justify-between md:items-start">
+                
+                <!-- Left block -->
+                <div>
+                    <div class="flex items-center gap-x-3 mb-6">
+                        <div class="w-7 h-7 bg-white rounded-2xl flex items-center justify-center text-[#1a1a1a] font-black text-xl">AI</div>
+                        <span class="text-white text-xl font-semibold tracking-tighter">AI Slop Science</span>
+                    </div>
+                    <p class="max-w-48">An online-only journal from Blablabla Portfolio dedicated to Artificial Intelligence Slop research</p>
+                </div>
+
+                <!-- Middle group (Discover + For authors + About) – tight internal spacing -->
+                <div class="flex flex-col md:flex-row gap-8 md:gap-x-24 md:gap-y-0">
+                    <!-- Discover -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">Discover</div>
+                        <div class="space-y-3">
+                            <a href="current-issue.html" class="block hover:text-white">Current issue</a>
+                            <a href="editorial.html" class="block hover:text-white">Editorial</a>
+                            <a href="article.html" class="block hover:text-white">Research articles</a>
+                            <a href="opinion.html" class="block hover:text-white">Opinion</a>
+                            <a href="news-views.html" class="block hover:text-white">News &amp; Views</a>
+                            <a href="correspondence.html" class="block hover:text-white">Correspondence</a>
+                        </div>
+                    </div>
+
+                    <!-- For authors -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">For authors</div>
+                        <div class="space-y-3">
+                            <a href="Publish_with_AiSS.html" class="block hover:text-white">Publish with AiSS</a>
+                            <a href="editorial-policies.html" class="block hover:text-white">Editorial policies</a>
+                        </div>
+                    </div>
+
+                    <!-- About -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">About</div>
+                        <div class="space-y-3">
+                            <a href="about-the-journal.html" class="block hover:text-white">Contact the journal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right block (Blablabla Enterprise) -->
+                <div>
+                    <div class="uppercase text-white text-[10px] tracking-widest mb-4">Blablabla Enterprise</div>
+                    <div class="text-[10px] leading-relaxed">
+                        © 2026 Blablabla Limited<br>
+                        Part of Blablabla Group
+                    </div>
+                    <a href="#" class="text-[#005C7A] hover:text-[#003d52] transition-colors">
+                        <img src="AI_logo.svg" alt="logo" class="w-11 h-11 mt-4">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom legal -->
+            <div class="border-t border-white/20 mt-10 pt-[10px] pb-[10px] text-[10px] flex flex-wrap gap-x-4 gap-y-2">
+                <span>ISSN 01000100 01101100 01101111 01100101 01110011 00100000 01101110 01101111 01110100 00100000 01100101 01111000 01101001 01110011 01110100 (online)</span>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            const term = this.value.trim();
+            if (term.length > 2) {
+                alert(`🔍 Wow, nobody thought anyone would type here! "${term}"...\n\nWe'll admit it — we were too lazy to implement this feature!`);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

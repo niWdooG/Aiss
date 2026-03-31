@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Paywall Science • AI Slop Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        .tail-container { font-family: 'Inter', system_ui, sans-serif; }
+        .logo-font { font-family: 'Playfair Display', serif; }
+
+        .section-header {
+            position: relative;
+        }
+        .section-header:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #005C7A;
+        }
+    </style>
+</head>
+<body class="tail-container bg-gray-50 text-gray-900">
+
+    <!-- TOP BAR -->
+    <div class="bg-[#1a1a1a] text-white text-xs py-2">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center gap-x-6 text-sm">
+                <a href="index.html" class="flex items-center gap-x-2 hover:text-emerald-400 transition-colors">
+                    <img src="logo.svg" alt="logo" class="w-5 h-5">
+                    <span class="font-semibold tracking-widest">Blablabla AI</span>
+                </a>
+            </div>
+
+            <div class="flex items-center gap-x-8 text-xs uppercase tracking-widest">
+                <a href="Publish_with_AiSS.html" class="hover:text-emerald-400 transition-colors">Publish with AiSS</a>
+                <a href="editorial-policies.html" class="hover:text-emerald-400 transition-colors">Editorial policies</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAV -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="h-16 flex items-center justify-between">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-[#0A2B36] rounded-3xl flex items-center justify-center text-white font-bold text-2xl logo-font">AI</div>
+                    <div>
+                        <span class="text-2xl font-semibold tracking-tighter text-gray-900">Slop Science</span>
+                    </div>
+                </div>
+
+                <div class="flex-1 max-w-xl mx-8">
+                    <div class="relative">
+                        <input type="text" 
+                               id="searchInput"
+                               placeholder="Search articles, authors, keywords..." 
+                               class="w-full bg-gray-100 border border-gray-200 focus:border-[#005C7A] rounded-2xl py-3 px-6 pl-12 text-sm focus:outline-none transition-all">
+                        <i class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-x-6 text-sm">
+                    <a href="#" class="text-[#005C7A] hover:text-[#003d52] transition-colors">
+                        <img src="sim.svg" alt="logo" class="w-9 h-9">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECONDARY NAV -->
+        <div class="border-t bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex items-center h-12 text-sm font-medium text-gray-600 overflow-x-auto">
+                    <a href="index.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Home</a>
+                    <a href="current-issue.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Current issue</a>
+                    <a href="editorial.html" class="px-6 border-b-2 border-[#005C7A] hover:text-[#005C7A] transition-colors h-full flex items-center">Editorial</a>
+                    <a href="article.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Research articles</a>
+                    <a href="opinion.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Opinion</a>
+                    <a href="news-views.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">News &amp; Views</a>
+                    <a href="correspondence.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">Correspondence</a>
+                    <a href="about-the-journal.html" class="px-6 hover:text-[#005C7A] transition-colors h-full flex items-center">About the journal</a>
+                    <a href="Publish_with_AiSS.html" class="px-6 border-b-2 text-[#005C7A] h-full flex items-center">Publish with AiSS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / MASTHEAD -->
+    <div class="hero-bg text-white py-20" style="background: linear-gradient(135deg, #161818 0%, #003d52 100%);">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                
+                <!-- Text Content - Takes half on large screens -->
+                <div class="flex-1 lg:w-1/2">
+                    <div class="inline-flex items-center gap-x-2 bg-white/20 backdrop-blur-md px-5 py-2 rounded-3xl text-xs tracking-[2px] mb-6">
+                        <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                        EDITORIAL • APRIL 2026 • CLAUDE OPUS 4.6
+                    </div>
+                    <h1 class="text-6xl font-bold logo-font tracking-tighter leading-none mb-4">
+                        Editorial
+                    </h1>
+                    <p class="text-3xl text-emerald-100">Public Paywall Science: Charging Commoners for Taxpayer-Funded Research</p>
+                </div>
+                
+                <!-- Image - Takes exactly half on large screens -->
+                <div class="flex-1 lg:w-1/2 max-w-lg lg:max-w-none">
+                    <div class="rounded-3xl border border-white/10">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl">
+                            <img src="editorial.png" 
+                                 alt="April 2026 Cover" 
+                                 class="w-full h-auto object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+
+        <!-- ABSTRACT (Green Line Section) -->
+        <div class="prose prose-lg max-w-none mb-12 border-l-4 border-emerald-600 pl-8">
+            <p class="text-xl italic text-gray-700 text-justify">
+                Academic publishing has achieved what protection rackets could only dream of: the victim funds the product, donates the labour, and then pays again to read it. We formalise this arrangement as the Profiteering Over Openness Policy (POOP), a framework so structurally sound that questioning it requires a tenured position and several years of repressed anger.
+                Under POOP, the paywall functions not as a barrier but as a meritocratic filter: researchers at underfunded institutions who cannot access the literature cannot produce citations, cannot secure grants, cannot afford APCs, and therefore conveniently exit the system — an elegant equilibrium the publisher did not engineer but has elected to maintain.
+                We further introduce Open Access Simulation: pay $9,500 to make your publicly funded research publicly available. Decline, and we charge your readers $49.99 for a 48-hour PDF rental. No printing.
+                The full analysis, including the data, the methodology, and the part where we run out of euphemisms for POOP, is available behind a paywall.
+            </p>
+        </div>
+
+        <!-- PAYWALL TEASER -->
+        <div class="bg-white border border-amber-200 rounded-3xl p-12 text-center mb-16">
+            <div class="inline-flex items-center gap-x-3 bg-amber-100 text-amber-700 px-6 py-2 rounded-full text-sm font-medium mb-6">
+                <i class="fa-solid fa-lock"></i>
+                PUBLIC PAYWALL ACTIVE
+            </div>
+            
+            <h2 class="text-3xl font-semibold mb-4">Full Article Available for $49.99</h2>
+            <p class="text-gray-600 max-w-md mx-auto mb-8">
+                Unlock the complete 47-page manifesto including:
+                <br>• Detailed mathematical proof that taxpayers enjoy paying twice
+                <br>• Case studies of scholars who couldn’t afford the paywall
+                <br>• Why this is actually good for equity and innovation
+            </p>
+
+            <a href="https://www.sci-hub.pub/" 
+               onclick="alert('✅ Payment received! ...Just kidding. This is AI Slop Science — the full article is fictional. Enjoy the joke. 🚀')"
+               class="inline-block bg-[#005C7A] hover:bg-[#003d52] text-white font-semibold px-10 py-4 rounded-3xl transition-colors">
+                Unlock Full Text ($49.99) — Taxpayers Welcome
+            </a>
+            
+            <p class="text-xs text-gray-500 mt-6">
+                Already paid via taxes? Congratulations — you're now eligible for a 0% discount.
+            </p>
+        </div>
+
+        <!-- TEASER / WHY THIS MATTERS -->
+        <div class="max-w-2xl mx-auto text-center text-gray-600">
+            <p class="italic">
+                "The beauty of Public Paywall Science lies in its elegant simplicity: 
+                the public funds the research, then pays again to read it, while publishers laugh all the way to the bank. 
+                This is not exploitation — this is synergy"
+            </p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1a1a1a] text-white/70 text-xs">
+        <div class="max-w-7xl mx-auto px-6 pt-4">
+            <div class="flex flex-col md:flex-row gap-y-10 md:gap-y-0 md:justify-between md:items-start">
+                
+                <!-- Left block -->
+                <div>
+                    <div class="flex items-center gap-x-3 mb-6">
+                        <div class="w-7 h-7 bg-white rounded-2xl flex items-center justify-center text-[#1a1a1a] font-black text-xl">AI</div>
+                        <span class="text-white text-xl font-semibold tracking-tighter">AI Slop Science</span>
+                    </div>
+                    <p class="max-w-48">An online-only journal from Blablabla Portfolio dedicated to Artificial Intelligence Slop research</p>
+                </div>
+
+                <!-- Middle group (Discover + For authors + About) – tight internal spacing -->
+                <div class="flex flex-col md:flex-row gap-8 md:gap-x-24 md:gap-y-0">
+                    <!-- Discover -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">Discover</div>
+                        <div class="space-y-3">
+                            <a href="current-issue.html" class="block hover:text-white">Current issue</a>
+                            <a href="editorial.html" class="block hover:text-white">Editorial</a>
+                            <a href="article.html" class="block hover:text-white">Research articles</a>
+                            <a href="opinion.html" class="block hover:text-white">Opinion</a>
+                            <a href="news-views.html" class="block hover:text-white">News &amp; Views</a>
+                            <a href="correspondence.html" class="block hover:text-white">Correspondence</a>
+                        </div>
+                    </div>
+
+                    <!-- For authors -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">For authors</div>
+                        <div class="space-y-3">
+                            <a href="Publish_with_AiSS.html" class="block hover:text-white">Publish with AiSS</a>
+                            <a href="editorial-policies.html" class="block hover:text-white">Editorial policies</a>
+                        </div>
+                    </div>
+
+                    <!-- About -->
+                    <div>
+                        <div class="uppercase text-white text-[10px] tracking-widest mb-4">About</div>
+                        <div class="space-y-3">
+                            <a href="about-the-journal.html" class="block hover:text-white">Contact the journal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right block (Blablabla Enterprise) -->
+                <div>
+                    <div class="uppercase text-white text-[10px] tracking-widest mb-4">Blablabla Enterprise</div>
+                    <div class="text-[10px] leading-relaxed">
+                        © 2026 Blablabla Limited<br>
+                        Part of Blablabla Group
+                    </div>
+                    <a href="#" class="text-[#005C7A] hover:text-[#003d52] transition-colors">
+                        <img src="AI_logo.svg" alt="logo" class="w-11 h-11 mt-4">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom legal -->
+            <div class="border-t border-white/20 mt-10 pt-[10px] pb-[10px] text-[10px] flex flex-wrap gap-x-4 gap-y-2">
+                <span>ISSN 01000100 01101100 01101111 01100101 01110011 00100000 01101110 01101111 01110100 00100000 01100101 01111000 01101001 01110011 01110100 (online)</span>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            const term = this.value.trim();
+            if (term.length > 2) {
+                alert(`🔍 Wow, nobody thought anyone would type here! "${term}"...\n\nWe'll admit it — we were too lazy to implement this feature!`);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
